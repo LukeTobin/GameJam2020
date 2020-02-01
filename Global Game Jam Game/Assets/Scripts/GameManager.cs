@@ -10,15 +10,19 @@ public class GameManager : MonoBehaviour
     public Text moneyUI;
 
     [Header("Variables")]
-    public int money;   
+    public float money;
+    public bool plantPlant;
+
+    [Header("Stored")]
+    public GameObject stored;
 
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        
+        moneyUI.text = "" + money;
     }
 }
