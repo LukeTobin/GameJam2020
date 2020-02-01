@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &57297560
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &127474429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,7 +1436,7 @@ MonoBehaviour:
   moneyUI: {fileID: 359368935}
   money: 0
   plantPlant: 0
-  stored: {fileID: 4887935433923871313, guid: 7185b9f5e7de27e46ae5a5cb9864c9ee, type: 3}
+  stored: {fileID: 4887935433923871313, guid: ef8de6dc1fd006c428bef79b1d46d031, type: 3}
 --- !u!4 &441051132
 Transform:
   m_ObjectHideFlags: 0
@@ -1808,7 +1810,7 @@ GameObject:
   - component: {fileID: 613754410}
   m_Layer: 5
   m_Name: SideBar
-  m_TagString: Untagged
+  m_TagString: Sidebar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2262,6 +2264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &842521346
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,7 +2617,7 @@ GameObject:
   - component: {fileID: 1018955219}
   m_Layer: 5
   m_Name: Focus background
-  m_TagString: Untagged
+  m_TagString: Focus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2966,6 +2969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &1187908208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,7 +3100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ec2b3fa184cb9f4eb68defb32dd9008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plant: {fileID: 0}
+  plant: {fileID: 4887935433923871313, guid: 7185b9f5e7de27e46ae5a5cb9864c9ee, type: 3}
+  gameCtrl: {fileID: 0}
 --- !u!1 &1207342646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,6 +3693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &1592297302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4605,6 +4611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &1839116210
 GameObject:
   m_ObjectHideFlags: 0
@@ -5339,6 +5346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &2079758198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5567,6 +5575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
+  gameCtrl: {fileID: 0}
 --- !u!1 &2100181051
 GameObject:
   m_ObjectHideFlags: 0

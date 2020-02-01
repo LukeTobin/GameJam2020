@@ -7,6 +7,8 @@ public class PlantChoice : MonoBehaviour
 {
 
     [SerializeField] GameObject plant;
+    Image focus;
+    public GameManager gameCtrl;
     Button btn;
 
     // Start is called before the first frame update
@@ -14,17 +16,21 @@ public class PlantChoice : MonoBehaviour
     {
         btn = GetComponent<Button>();
         btn.onClick.AddListener(MakeChoice);
+        focus = GameObject.FindGameObjectWithTag("Focus").GetComponent<Image>();
+        gameCtrl = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void MakeChoice()
     {
-
+        GameObject.FindGameObjectWithTag("Sidebar").SetActive(false);
+        focus.enabled = false;
+        gameCtrl.stored = plant;
     }
 
 
