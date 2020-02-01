@@ -13,21 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-01T18:42:53.430+01:00
-  initializedAtString: 2020-02-01T17:30:15.581+01:00
+  lastUpdatedAtString: 2020-02-01T19:04:34.999+01:00
+  initializedAtString: 2020-02-01T18:55:12.918+01:00
   entries:
-  - path: Global Game Jam Game\Assets\Scenes\Main.unity
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Assets\Scenes\Main.unity
-    projectPath: Assets\Scenes\Main.unity
+  - path: Global Game Jam Game\Assets\Prefabs\Plant.prefab
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Assets\Prefabs\Plant.prefab
+    projectPath: Assets\Prefabs\Plant.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Global Game Jam Game\Assets\Scripts\PlantChoice.cs
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Assets\Scripts\PlantChoice.cs
-    projectPath: Assets\Scripts\PlantChoice.cs
+  - path: Global Game Jam Game\Assets\Scripts\ReadyPlacement.cs
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Assets\Scripts\ReadyPlacement.cs
+    projectPath: Assets\Scripts\ReadyPlacement.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Global Game Jam Game\Assets\Scripts\ReadyPlacement.cs.meta
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Assets\Scripts\ReadyPlacement.cs.meta
+    projectPath: Assets\Scripts\ReadyPlacement.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Global Game Jam Game\Library\ArtifactDB
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -38,47 +44,41 @@ MonoBehaviour:
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\03\0313528d64df4a8fd4bc5d3edb3ad193
     projectPath: Library\Artifacts\03\0313528d64df4a8fd4bc5d3edb3ad193
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Global Game Jam Game\Library\Artifacts\04\047f503fa0e9abded2e4f19f8860d9e1
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\04\047f503fa0e9abded2e4f19f8860d9e1
+    projectPath: Library\Artifacts\04\047f503fa0e9abded2e4f19f8860d9e1
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Global Game Jam Game\Library\Artifacts\15\159b449334ec90c68966931ada3785f5
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\15\159b449334ec90c68966931ada3785f5
     projectPath: Library\Artifacts\15\159b449334ec90c68966931ada3785f5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\15\15e46dffe7b74878b82e4449b63456a8
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\15\15e46dffe7b74878b82e4449b63456a8
     projectPath: Library\Artifacts\15\15e46dffe7b74878b82e4449b63456a8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\1a\1ab4b91416b9a8feff18b2bb73f23f6b
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\1a\1ab4b91416b9a8feff18b2bb73f23f6b
     projectPath: Library\Artifacts\1a\1ab4b91416b9a8feff18b2bb73f23f6b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\2b\2bcd6d91814c26371945f182a7a1e8fc
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\2b\2bcd6d91814c26371945f182a7a1e8fc
     projectPath: Library\Artifacts\2b\2bcd6d91814c26371945f182a7a1e8fc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Library\Artifacts\30\30dfb27e2581171dd8fdc9f2d26db178
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\30\30dfb27e2581171dd8fdc9f2d26db178
-    projectPath: Library\Artifacts\30\30dfb27e2581171dd8fdc9f2d26db178
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\37\37c8e82c053580e1f0dac9ebac7557d3
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\37\37c8e82c053580e1f0dac9ebac7557d3
     projectPath: Library\Artifacts\37\37c8e82c053580e1f0dac9ebac7557d3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Library\Artifacts\3e\3ecf1c7bacd7337191a9a69fcfaf0880
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\3e\3ecf1c7bacd7337191a9a69fcfaf0880
-    projectPath: Library\Artifacts\3e\3ecf1c7bacd7337191a9a69fcfaf0880
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -86,41 +86,35 @@ MonoBehaviour:
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\45\45c65386f000707c85abfb634bec8079
     projectPath: Library\Artifacts\45\45c65386f000707c85abfb634bec8079
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Library\Artifacts\48\48766a3c906915d0fca1dae61570d769
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\48\48766a3c906915d0fca1dae61570d769
-    projectPath: Library\Artifacts\48\48766a3c906915d0fca1dae61570d769
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Global Game Jam Game\Library\Artifacts\52\52cb4a8ea48aeaa7e004073c1aa99363
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\52\52cb4a8ea48aeaa7e004073c1aa99363
-    projectPath: Library\Artifacts\52\52cb4a8ea48aeaa7e004073c1aa99363
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\58\58728d039bfcb32493f8ff361edfba28
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\58\58728d039bfcb32493f8ff361edfba28
     projectPath: Library\Artifacts\58\58728d039bfcb32493f8ff361edfba28
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\5a\5a45e24f5fa901387cd9810dfe0a20b1
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\5a\5a45e24f5fa901387cd9810dfe0a20b1
     projectPath: Library\Artifacts\5a\5a45e24f5fa901387cd9810dfe0a20b1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\60\604ac9dde05e780b0f730be3f64a8ce8
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\60\604ac9dde05e780b0f730be3f64a8ce8
     projectPath: Library\Artifacts\60\604ac9dde05e780b0f730be3f64a8ce8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\64\64b6da2f52e78ffd98deda9edfecf1b1
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\64\64b6da2f52e78ffd98deda9edfecf1b1
     projectPath: Library\Artifacts\64\64b6da2f52e78ffd98deda9edfecf1b1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Global Game Jam Game\Library\Artifacts\81\81317e18c3a0e8c9595679541c67ae22
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\81\81317e18c3a0e8c9595679541c67ae22
+    projectPath: Library\Artifacts\81\81317e18c3a0e8c9595679541c67ae22
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -128,35 +122,41 @@ MonoBehaviour:
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\88\8853395bf1f6b2f4a220a881ef0df8cc
     projectPath: Library\Artifacts\88\8853395bf1f6b2f4a220a881ef0df8cc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\89\898e9ff79b9f34d3158c0c54e13c42b9
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\89\898e9ff79b9f34d3158c0c54e13c42b9
     projectPath: Library\Artifacts\89\898e9ff79b9f34d3158c0c54e13c42b9
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\91\91c72bf10ba6824b26ed05897a2fbebd
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\91\91c72bf10ba6824b26ed05897a2fbebd
     projectPath: Library\Artifacts\91\91c72bf10ba6824b26ed05897a2fbebd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\95\95218a9521d1c100129382d9a76c5a07
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\95\95218a9521d1c100129382d9a76c5a07
     projectPath: Library\Artifacts\95\95218a9521d1c100129382d9a76c5a07
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\9b\9b2f4c3e4ff633381a7aa382f339a177
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\9b\9b2f4c3e4ff633381a7aa382f339a177
     projectPath: Library\Artifacts\9b\9b2f4c3e4ff633381a7aa382f339a177
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\9e\9e2497c5026cc014bcb120ad00875f09
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\9e\9e2497c5026cc014bcb120ad00875f09
     projectPath: Library\Artifacts\9e\9e2497c5026cc014bcb120ad00875f09
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Global Game Jam Game\Library\Artifacts\a5\a599cec7dc7ddf4b1f21568fa7e46c93
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\a5\a599cec7dc7ddf4b1f21568fa7e46c93
+    projectPath: Library\Artifacts\a5\a599cec7dc7ddf4b1f21568fa7e46c93
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -164,29 +164,47 @@ MonoBehaviour:
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\ad\ad1601c0c7c997e4a48e5d56ced98c3d
     projectPath: Library\Artifacts\ad\ad1601c0c7c997e4a48e5d56ced98c3d
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Global Game Jam Game\Library\Artifacts\b4\b4bf426291aedc47f60f093f9eaa4e78
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\b4\b4bf426291aedc47f60f093f9eaa4e78
+    projectPath: Library\Artifacts\b4\b4bf426291aedc47f60f093f9eaa4e78
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Global Game Jam Game\Library\Artifacts\b4\b4c12dd5ae9255eaf7a6466a84a28000
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\b4\b4c12dd5ae9255eaf7a6466a84a28000
     projectPath: Library\Artifacts\b4\b4c12dd5ae9255eaf7a6466a84a28000
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\Artifacts\b6\b65969d7741a86f253c9c8db37314025
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\b6\b65969d7741a86f253c9c8db37314025
     projectPath: Library\Artifacts\b6\b65969d7741a86f253c9c8db37314025
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Library\Artifacts\dd\dd100f28c0853edd7e4a62e3671701f7
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\dd\dd100f28c0853edd7e4a62e3671701f7
-    projectPath: Library\Artifacts\dd\dd100f28c0853edd7e4a62e3671701f7
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Global Game Jam Game\Library\Artifacts\e4\e477556e3df6ae338a493ce858b914b1
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\e4\e477556e3df6ae338a493ce858b914b1
-    projectPath: Library\Artifacts\e4\e477556e3df6ae338a493ce858b914b1
+  - path: Global Game Jam Game\Library\Artifacts\b7\b7fd37c4512a3146eb22b0a2f2e6d006
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\b7\b7fd37c4512a3146eb22b0a2f2e6d006
+    projectPath: Library\Artifacts\b7\b7fd37c4512a3146eb22b0a2f2e6d006
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Global Game Jam Game\Library\Artifacts\dc\dc9d0dd01dc1e969ba070d0ebf79a660
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\dc\dc9d0dd01dc1e969ba070d0ebf79a660
+    projectPath: Library\Artifacts\dc\dc9d0dd01dc1e969ba070d0ebf79a660
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Global Game Jam Game\Library\Artifacts\e4\e40a7b917a9f55a229c4509bbbaa8ae6
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\e4\e40a7b917a9f55a229c4509bbbaa8ae6
+    projectPath: Library\Artifacts\e4\e40a7b917a9f55a229c4509bbbaa8ae6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Global Game Jam Game\Library\Artifacts\e4\e4ab8863a8620138545e90b9a9f0d4b2
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\e4\e4ab8863a8620138545e90b9a9f0d4b2
+    projectPath: Library\Artifacts\e4\e4ab8863a8620138545e90b9a9f0d4b2
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -194,14 +212,8 @@ MonoBehaviour:
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\Artifacts\fc\fcac4980bd9ee3748c47bb0089b810f7
     projectPath: Library\Artifacts\fc\fcac4980bd9ee3748c47bb0089b810f7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Global Game Jam Game\Library\EditorInstance.json
     fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -250,9 +262,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Global Game Jam Game\Library\StateCache\SceneView\21bb08-mainStage.json
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Library\StateCache\SceneView\21bb08-mainStage.json
-    projectPath: Library\StateCache\SceneView\21bb08-mainStage.json
+  - path: Global Game Jam Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Global Game Jam Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Global Game Jam Game\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -268,135 +292,45 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-026e8e26855019743be5671e62eecab7
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-026e8e26855019743be5671e62eecab7
-    projectPath: Temp\UnityTempFile-026e8e26855019743be5671e62eecab7
+  - path: Global Game Jam Game\Temp\UnityTempFile-3c12cc4b64109c44dba3694e1ff9184b
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-3c12cc4b64109c44dba3694e1ff9184b
+    projectPath: Temp\UnityTempFile-3c12cc4b64109c44dba3694e1ff9184b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-14a3e5a3f1932e243a675af53347f1d4
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-14a3e5a3f1932e243a675af53347f1d4
-    projectPath: Temp\UnityTempFile-14a3e5a3f1932e243a675af53347f1d4
+  - path: Global Game Jam Game\Temp\UnityTempFile-ab5710a20a6e83e4485a0c80b1bf4c33
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-ab5710a20a6e83e4485a0c80b1bf4c33
+    projectPath: Temp\UnityTempFile-ab5710a20a6e83e4485a0c80b1bf4c33
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-16533025e8e835c42b07ef1864ba8656
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-16533025e8e835c42b07ef1864ba8656
-    projectPath: Temp\UnityTempFile-16533025e8e835c42b07ef1864ba8656
+  - path: Global Game Jam Game\Temp\UnityTempFile-c1adfdf2d3863e743a98d21be8d70b79
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-c1adfdf2d3863e743a98d21be8d70b79
+    projectPath: Temp\UnityTempFile-c1adfdf2d3863e743a98d21be8d70b79
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-2f29f9c9b87b0a24eabcb0a70cd7b94f
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-2f29f9c9b87b0a24eabcb0a70cd7b94f
-    projectPath: Temp\UnityTempFile-2f29f9c9b87b0a24eabcb0a70cd7b94f
+  - path: Global Game Jam Game\Temp\UnityTempFile-c424bdeb0ef63c44a98aa14fe5f05c6f
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-c424bdeb0ef63c44a98aa14fe5f05c6f
+    projectPath: Temp\UnityTempFile-c424bdeb0ef63c44a98aa14fe5f05c6f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-3197df8705d01924cafbb96e3f1cfad1
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-3197df8705d01924cafbb96e3f1cfad1
-    projectPath: Temp\UnityTempFile-3197df8705d01924cafbb96e3f1cfad1
+  - path: Global Game Jam Game\Temp\UnityTempFile-cfe628cf84602d9468adf35ae2b14e98
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-cfe628cf84602d9468adf35ae2b14e98
+    projectPath: Temp\UnityTempFile-cfe628cf84602d9468adf35ae2b14e98
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-3a3e32281082f9141bdee0f8b35207a5
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-3a3e32281082f9141bdee0f8b35207a5
-    projectPath: Temp\UnityTempFile-3a3e32281082f9141bdee0f8b35207a5
+  - path: Global Game Jam Game\Temp\UnityTempFile-e11e20724ffae4d48880217b6f18375a
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-e11e20724ffae4d48880217b6f18375a
+    projectPath: Temp\UnityTempFile-e11e20724ffae4d48880217b6f18375a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-3dbf40382f1389d4b99341f73bc1edd3
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-3dbf40382f1389d4b99341f73bc1edd3
-    projectPath: Temp\UnityTempFile-3dbf40382f1389d4b99341f73bc1edd3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-429c6487947027d41bc83a5781145065
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-429c6487947027d41bc83a5781145065
-    projectPath: Temp\UnityTempFile-429c6487947027d41bc83a5781145065
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-4b401985de2e551469fc7351248512cf
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-4b401985de2e551469fc7351248512cf
-    projectPath: Temp\UnityTempFile-4b401985de2e551469fc7351248512cf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-5a8b0681e00c2584b8a8ef4bd1d7aed2
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-5a8b0681e00c2584b8a8ef4bd1d7aed2
-    projectPath: Temp\UnityTempFile-5a8b0681e00c2584b8a8ef4bd1d7aed2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-5ff6b887e343e314d9a2bfd94d861a68
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-5ff6b887e343e314d9a2bfd94d861a68
-    projectPath: Temp\UnityTempFile-5ff6b887e343e314d9a2bfd94d861a68
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-63d15488baf52df4f97364818a2b1aa2
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-63d15488baf52df4f97364818a2b1aa2
-    projectPath: Temp\UnityTempFile-63d15488baf52df4f97364818a2b1aa2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-669e7bce098711a4fb07904f95b3df1f
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-669e7bce098711a4fb07904f95b3df1f
-    projectPath: Temp\UnityTempFile-669e7bce098711a4fb07904f95b3df1f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-676c595094721234ea327a065032f066
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-676c595094721234ea327a065032f066
-    projectPath: Temp\UnityTempFile-676c595094721234ea327a065032f066
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-78df6443e9008894a868390e14324cea
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-78df6443e9008894a868390e14324cea
-    projectPath: Temp\UnityTempFile-78df6443e9008894a868390e14324cea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-91367542242cfe643b80ab6a0a61e671
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-91367542242cfe643b80ab6a0a61e671
-    projectPath: Temp\UnityTempFile-91367542242cfe643b80ab6a0a61e671
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-a89439f18a48e164cb87c04b0c80d2da
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-a89439f18a48e164cb87c04b0c80d2da
-    projectPath: Temp\UnityTempFile-a89439f18a48e164cb87c04b0c80d2da
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-aeea55c106eb47c479695cb9b784df89
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-aeea55c106eb47c479695cb9b784df89
-    projectPath: Temp\UnityTempFile-aeea55c106eb47c479695cb9b784df89
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-bada71c8e1e8f5d46a9a00b03109b335
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-bada71c8e1e8f5d46a9a00b03109b335
-    projectPath: Temp\UnityTempFile-bada71c8e1e8f5d46a9a00b03109b335
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-bfe16a8808d5f794591db23512012e94
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-bfe16a8808d5f794591db23512012e94
-    projectPath: Temp\UnityTempFile-bfe16a8808d5f794591db23512012e94
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-c7515014dbe6f8c47a38a9a9655cc9a8
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-c7515014dbe6f8c47a38a9a9655cc9a8
-    projectPath: Temp\UnityTempFile-c7515014dbe6f8c47a38a9a9655cc9a8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Global Game Jam Game\Temp\UnityTempFile-c77e1d3ed7e53ef45989c617fc0e5381
-    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-c77e1d3ed7e53ef45989c617fc0e5381
-    projectPath: Temp\UnityTempFile-c77e1d3ed7e53ef45989c617fc0e5381
+  - path: Global Game Jam Game\Temp\UnityTempFile-f65b6752e2d066143b2dede09494a4c4
+    fullPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game\Temp\UnityTempFile-f65b6752e2d066143b2dede09494a4c4
+    projectPath: Temp\UnityTempFile-f65b6752e2d066143b2dede09494a4c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
