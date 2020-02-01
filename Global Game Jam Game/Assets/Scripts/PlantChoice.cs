@@ -31,6 +31,8 @@ public class PlantChoice : MonoBehaviour
 
     public void FillMenu()
     {
+        
+
         for (int i = 0; i < plants.Count; i++)
         {
             var plantScript = plants[i].GetComponent<Plant>();
@@ -38,6 +40,7 @@ public class PlantChoice : MonoBehaviour
             if (plantScript.lvlReq <= currentLvl)
             {
                 plantsAvailable.Add(plants[i]);
+                Instantiate(plants[i], new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
             }
         }
     }
