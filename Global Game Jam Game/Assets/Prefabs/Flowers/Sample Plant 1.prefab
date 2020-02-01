@@ -91,5 +91,6 @@ MonoBehaviour:
   grown: {fileID: 21300000, guid: 61710f3f5582aa246b0761a59d21dd56, type: 3}
   growTime: 5
   buyCost: 1
+  lvlReq: 1
   sellCost: 2
   isReady: 0

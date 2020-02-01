@@ -5,29 +5,40 @@ using UnityEngine.UI;
 
 public class PlantChoice : MonoBehaviour
 {
+    //Plant arrays
+    public List<GameObject> plants;
+    public List<GameObject> plantsAvailable;
 
-    [SerializeField] GameObject plant;
-    Image focus;
-    public GameManager gameCtrl;
-    Button btn;
+    //References
+    [SerializeField] GameObject gameCtrl;
+
+    //Variables
+    int currentLvl;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        btn = GetComponent<Button>();
-        btn.onClick.AddListener(MakeChoice);
-        focus = GameObject.FindGameObjectWithTag("Focus").GetComponent<Image>();
-        gameCtrl = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        var gameManager = gameCtrl.GetComponent<GameManager>();
+        currentLvl = gameManager.playerLvl;
     }
 
-
-    void MakeChoice()
+    // Update is called once per frame
+    void Update()
     {
-        GameObject.FindGameObjectWithTag("Sidebar").SetActive(false);
-        focus.enabled = false;
-        gameCtrl.stored = plant;
-        gameCtrl.plantPlant = true;
+
     }
 
+    public void FillMenu()
+    {
+        for (int i = 0; i < plants.Count; i++)
+        {
+            var plantScript = plants[i].GetComponent<Plant>();
 
+            if (plantScript.lvlReq <= currentLvl)
+            {
+                plantsAvailable.Add(plants[i]);
+            }
+        }
+    }
 }

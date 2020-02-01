@@ -15,6 +15,7 @@ public class Plant : MonoBehaviour
     [Header("Values")]
     public float growTime;
     public float buyCost;
+    public int lvlReq;
     public float sellCost;
 
     [Header("Accessable")]
