@@ -12,7 +12,9 @@ public class PlantChoice : MonoBehaviour
     //References
     [SerializeField] GameObject gameCtrl;
     [SerializeField] Image menuItem;
+    [SerializeField] Text menuCost;
     [SerializeField] RectTransform origin;
+    GameManager gm;
 
     //Variables
     int currentLvl;
@@ -23,13 +25,8 @@ public class PlantChoice : MonoBehaviour
     void Start()
     {
         var gameManager = gameCtrl.GetComponent<GameManager>();
+        gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         currentLvl = gameManager.playerLvl;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void FillMenu()
@@ -51,9 +48,13 @@ public class PlantChoice : MonoBehaviour
                     xCount = 1;
                 }
 
-                Debug.Log(xCount);
-                plantsAvailable.Add(plants[i]); //TODO: Add relevant information from prefab/procedurally generated GameObject
+               // plantsAvailable.Add(plants[i]); //TODO: Add relevant information from prefab/procedurally generated GameObject
+                menuItem.sprite = plants[i].GetComponent<Plant>().grown;
+                menuItem.GetComponent<ReadyPlacement>().storing = plants[i];
+                menuCost.text = "uwus: " + plants[i].GetComponent<Plant>().buyCost;
                 Instantiate(menuItem, new Vector3(origin.localPosition.x + ((136 * xCount)- 20), origin.localPosition.y - 136 * yCount, origin.localPosition.z), Quaternion.identity, transform.parent = gameObject.transform);
+                Instantiate(menuCost, new Vector3(origin.localPosition.x + ((136 * xCount) - 20), (origin.localPosition.y - 136 * yCount) - 60, origin.localPosition.z), Quaternion.identity, transform.parent = gameObject.transform);
+                
             }
         }
     }

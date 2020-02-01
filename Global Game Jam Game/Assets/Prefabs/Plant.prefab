@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3734766945745119619}
   - component: {fileID: 3734766945745119621}
   - component: {fileID: 188901189920482806}
+  - component: {fileID: -4991293546317750685}
   m_Layer: 5
   m_Name: Plant
   m_TagString: Untagged
@@ -65,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 61710f3f5582aa246b0761a59d21dd56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -117,7 +118,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3734766945745119619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 188901189920482806}
+        m_MethodName: purchaseMe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &188901189920482806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,4 +143,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plant: {fileID: 0}
-  storing: {fileID: 0}
+  storing: {fileID: 4887935433923871313, guid: abd6f1e072d1b494caa5c49e0576e880, type: 3}
+--- !u!114 &-4991293546317750685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3734766945745119617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e2c1d7234841e45b6e45340adf7fb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

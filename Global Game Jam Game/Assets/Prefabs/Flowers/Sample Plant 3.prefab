@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 55, y: 55}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &297934999217582546
 CanvasRenderer:
@@ -86,11 +86,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6baaedff64d8aec468c6df23d6f85276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seed: {fileID: 21300000, guid: bfc9e01ae78ef73478f962b5f73b78b0, type: 3}
-  child: {fileID: 21300000, guid: 4db908e5e5b9121458a84f0553ed60a7, type: 3}
-  grown: {fileID: 21300000, guid: 61710f3f5582aa246b0761a59d21dd56, type: 3}
+  seed: {fileID: 21300000, guid: b575c5593ae107340950e6b14c16b8d3, type: 3}
+  child: {fileID: 21300000, guid: 769940135cf9d844a8f9c947e5b90f77, type: 3}
+  grown: {fileID: 21300000, guid: 6df78c84a11baae45a2fdeeea32bf8a1, type: 3}
   growTime: 5
   buyCost: 1
-  lvlReq: 2
   sellCost: 2
+  lvlReq: 2
   isReady: 0

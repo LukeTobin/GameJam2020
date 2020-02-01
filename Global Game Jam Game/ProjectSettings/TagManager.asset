@@ -9,6 +9,7 @@ TagManager:
   - Garden
   - Plant
   - Holder
+  - InfoBox
   layers:
   - Default
   - TransparentFX

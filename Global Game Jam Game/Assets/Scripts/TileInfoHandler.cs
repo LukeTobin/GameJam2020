@@ -20,19 +20,19 @@ public class TileInfoHandler : MonoBehaviour
 
     void PlacePlant()
     {
-        if (gm.plantPlant)
+        if (gm.stored != null && !isOccupied)
         {
             Debug.Log("can be planted");
 
             GameObject newPlant = Instantiate(gm.stored);
             newPlant.transform.parent = gameObject.transform;
             newPlant.transform.position = transform.position;
+            gm.money -= GetComponentInChildren<Plant>().buyCost;
             isOccupied = true;
-            gm.plantPlant = false;
         }
-        else if(!isOccupied)
+        else if(isOccupied)
         {
-            Debug.Log("cant plant yet");
+            Debug.Log("occupied");
         }
 
         if (isOccupied)
@@ -46,7 +46,6 @@ public class TileInfoHandler : MonoBehaviour
             {
                 Debug.Log("not ready");
             }
-
             
         }
     }

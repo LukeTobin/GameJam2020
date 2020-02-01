@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class Plant : MonoBehaviour
 {
+
+    /*
+     * Plant in garden
+     * 
+     */
     int level = 1;
 
     [Header("Images")]
@@ -12,13 +17,17 @@ public class Plant : MonoBehaviour
     public Sprite child;
     public Sprite grown;
 
+    [Header("Exceptions")]
+    public bool fourth;
+    public Sprite last;
+
     [Header("Values")]
     public float growTime;
     public float buyCost;
-    public int lvlReq;
     public float sellCost;
 
     [Header("Accessable")]
+    public int lvlReq;
     float startTime;
     public bool isReady;
 
@@ -50,8 +59,16 @@ public class Plant : MonoBehaviour
                     break;
                 case 3:
                     Debug.Log("o yis it deth time");
-                    isReady = true;
+                    if (!fourth)
+                    {
+                        isReady = true;
+                    }
                     GetComponent<Image>().sprite = grown;
+                    break;
+                case 4:
+                    Debug.Log("exception caught");
+                    isReady = true;
+                    GetComponent<Image>().sprite = last;
                     break;
                 default:
                     GetComponent<Image>().sprite = null;

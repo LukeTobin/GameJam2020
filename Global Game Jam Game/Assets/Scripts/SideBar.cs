@@ -5,18 +5,35 @@ using UnityEngine.UI;
 
 public class SideBar : MonoBehaviour
 {
-
     [SerializeField] Image focusBG;
+
+    public GameObject plantMenu, toolMenu, infobox;
+    public Button exit;
 
     private void Start()
     {
         focusBG.enabled = false;
+        plantMenu.SetActive(false);
+        toolMenu.SetActive(false);
+        infobox.SetActive(false);
         gameObject.SetActive(false);
+
+        exit.onClick.AddListener(closeAll);
     }
 
     public void MoveInMenu()
     {
         gameObject.SetActive(true);
+        plantMenu.SetActive(true);
         focusBG.enabled = true;
+    }
+
+    public void closeAll()
+    {
+        focusBG.enabled = false;
+        plantMenu.SetActive(false);
+        toolMenu.SetActive(false);
+        infobox.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
