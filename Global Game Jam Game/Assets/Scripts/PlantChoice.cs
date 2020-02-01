@@ -20,17 +20,13 @@ public class PlantChoice : MonoBehaviour
         gameCtrl = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     void MakeChoice()
     {
         GameObject.FindGameObjectWithTag("Sidebar").SetActive(false);
         focus.enabled = false;
         gameCtrl.stored = plant;
+        gameCtrl.plantPlant = true;
     }
 
 

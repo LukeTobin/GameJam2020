@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Sidebar
   - Focus
+  - Garden
+  - Plant
+  - Holder
   layers:
   - Default
   - TransparentFX
