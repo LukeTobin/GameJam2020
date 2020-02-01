@@ -453,6 +453,9 @@ MonoBehaviour:
   - {fileID: 4887935433923871313, guid: 000c9709c34db1748bd84cb51a6dee89, type: 3}
   plantsAvailable: []
   gameCtrl: {fileID: 441051130}
+  menuItem: {fileID: 3734766945745119619, guid: ce4110ba6f18c6141a9abf73c1acab79,
+    type: 3}
+  origin: {fileID: 1187908209}
 --- !u!1 &147168911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5078,6 +5081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3734766945745119617, guid: ce4110ba6f18c6141a9abf73c1acab79,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce4110ba6f18c6141a9abf73c1acab79, type: 3}

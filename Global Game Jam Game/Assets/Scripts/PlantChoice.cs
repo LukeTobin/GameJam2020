@@ -5,15 +5,18 @@ using UnityEngine.UI;
 
 public class PlantChoice : MonoBehaviour
 {
-    //Plant arrays
+    //Plant lists
     public List<GameObject> plants;
     public List<GameObject> plantsAvailable;
 
     //References
     [SerializeField] GameObject gameCtrl;
+    [SerializeField] Image menuItem;
+    [SerializeField] RectTransform origin;
 
     //Variables
     int currentLvl;
+
 
 
     // Start is called before the first frame update
@@ -31,7 +34,8 @@ public class PlantChoice : MonoBehaviour
 
     public void FillMenu()
     {
-        
+        int xCount = 0;
+        int yCount = 0;
 
         for (int i = 0; i < plants.Count; i++)
         {
@@ -39,8 +43,17 @@ public class PlantChoice : MonoBehaviour
 
             if (plantScript.lvlReq <= currentLvl)
             {
-                plantsAvailable.Add(plants[i]);
-                Instantiate(plants[i], new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.identity);
+                xCount++;
+
+                if(xCount%6 == 0)
+                {
+                    yCount++;
+                    xCount = 1;
+                }
+
+                Debug.Log(xCount);
+                plantsAvailable.Add(plants[i]); //TODO: Add relevant information from prefab/procedurally generated GameObject
+                Instantiate(menuItem, new Vector3(origin.localPosition.x + ((136 * xCount)- 20), origin.localPosition.y - 136 * yCount, origin.localPosition.z), Quaternion.identity, transform.parent = gameObject.transform);
             }
         }
     }
