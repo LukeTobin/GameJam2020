@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     [Header("Variables")]
     public float money;
     public bool plantPlant;
+    public int playerLvl;
 
     [Header("Stored")]
     public GameObject stored;

@@ -31,6 +31,7 @@ public class PlantChoice : MonoBehaviour
         GameObject.FindGameObjectWithTag("Sidebar").SetActive(false);
         focus.enabled = false;
         gameCtrl.stored = plant;
+        gameCtrl.plantPlant = true;
     }
 
 
