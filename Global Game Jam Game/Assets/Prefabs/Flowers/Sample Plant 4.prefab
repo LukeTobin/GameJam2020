@@ -89,8 +89,12 @@ MonoBehaviour:
   seed: {fileID: 21300000, guid: 3aab7bb8ded985546a684410d54329f1, type: 3}
   child: {fileID: 21300000, guid: ab80b85170eec0842bcd8b30844efc91, type: 3}
   grown: {fileID: 21300000, guid: b496a956fea3d674bb46dfbbcaa7bc30, type: 3}
-  growTime: 5
-  buyCost: 1
-  sellCost: 2
-  lvlReq: 2
+  fourth: 0
+  last: {fileID: 0}
+  growTime: 60
+  buyCost: 100
+  sellCost: 450
+  _name: Moonstone
+  _desc: Not actually a Moonstone. Not actually related to Sailor Moon. Very rare.
+  lvlReq: 5
   isReady: 0

@@ -27,6 +27,8 @@ public class Plant : MonoBehaviour
     public float sellCost;
 
     [Header("Accessable")]
+    public string _name;
+    public string _desc;
     public int lvlReq;
     float startTime;
     public bool isReady;
@@ -75,7 +77,7 @@ public class Plant : MonoBehaviour
                     break;
             }
 
-                startTime *= level;
+                startTime *= Random.Range(level - (level*3), level + (level*3));
                 growTime = startTime;
 
         }

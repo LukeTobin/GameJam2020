@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 131
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 731
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 132
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 60
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 61
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,8 +290,8 @@ MonoBehaviour:
     y: 0
     width: 359
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -574,7 +574,7 @@ MonoBehaviour:
     - name: origin/Shop
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -2603,13 +2603,13 @@ MonoBehaviour:
       workTreeStatus: 1
     changedFilesText: 37 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-02-01T19:20:55.590+01:00
+      updatedTimeString: 2020-02-02T13:26:01.540+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-02-01T23:24:01.691+01:00
+      updatedTimeString: 2020-02-02T15:34:41.146+01:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-02-01T23:20:02.906+01:00
+      updatedTimeString: 2020-02-02T15:28:33.404+01:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -56504,7 +56504,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -56564,9 +56564,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0e350000
-      m_LastClickedID: 13582
-      m_ExpandedIDs: 6ee7feff0cc5ffff6efbffffcc3400000e350000bc350000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3a46ffff4e46ffff5846ffffc046ffffd446ffffde46ffff1848ffff2c48ffff2e48ffff0649ffff1a49ffffb449fffffa4cffff0e4dffffa84dffff2ed5ffff64fbffffda340000e2340000e8340000103500004c3500007835000082350000d6350000f635000026360000323600006236000056c9000078c90000bec90000f0c9000084ca0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -56626,9 +56626,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 543.4016, y: 204.17317, z: 36.125}
+    m_Target: {x: 427.05798, y: 216.75691, z: -240.5076}
     speed: 2
-    m_Value: {x: 543.4016, y: 204.17317, z: 36.125}
+    m_Value: {x: 427.05798, y: 216.75691, z: -240.5076}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -56678,9 +56678,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 587.3319
+    m_Target: 571.4945
     speed: 2
-    m_Value: 587.3319
+    m_Value: 571.4945
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -56698,7 +56698,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.18827856, y: 0.69621676, z: -0.19742167, w: -0.66397566}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -56744,20 +56744,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Acer\Documents\GitHub\GameJam2020\Global Game Jam Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42370000
-    m_LastClickedID: 14146
-    m_ExpandedIDs: 000000003e370000403700004237000000ca9a3b
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: d2370000
+    m_LastClickedID: 14290
+    m_ExpandedIDs: 00000000bc370000be370000c037000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -56785,7 +56785,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e3700004037000042370000
+    m_ExpandedIDs: 00000000bc370000be370000c0370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -56813,7 +56813,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000c8280000323b0000b24d000064380000623900004e310000703f00004036000000000000602b00008e290000c843000022360000feaf000006b00000
+    m_ExpandedInstanceIDs: c6230000c8280000323b0000b24d000064380000623900004e310000703f00004036000000000000602b00008e290000c843000022360000feaf000006b00000ce39000072370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -56829,7 +56829,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -56840,7 +56840,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 183
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52

@@ -89,8 +89,12 @@ MonoBehaviour:
   seed: {fileID: 21300000, guid: b272c59f7b6e657448f8222ba7da42b3, type: 3}
   child: {fileID: 21300000, guid: 94b7e5af54b8c344194a560fb94e4b05, type: 3}
   grown: {fileID: 21300000, guid: f314d3c00bdb0d34cae4a1064e18a660, type: 3}
-  growTime: 5
-  buyCost: 1
-  sellCost: 2
-  lvlReq: 1
+  fourth: 0
+  last: {fileID: 0}
+  growTime: 30
+  buyCost: 30
+  sellCost: 65
+  _name: Echeveria Elegans
+  _desc: This succulent is also known as "Mexican Snowball".
+  lvlReq: 2
   isReady: 0

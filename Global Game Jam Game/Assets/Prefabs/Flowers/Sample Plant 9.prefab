@@ -86,11 +86,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6baaedff64d8aec468c6df23d6f85276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seed: {fileID: 21300000, guid: 2611aed86b8e94748839e14f607fd843, type: 3}
-  child: {fileID: 21300000, guid: 2611aed86b8e94748839e14f607fd843, type: 3}
-  grown: {fileID: 21300000, guid: 61710f3f5582aa246b0761a59d21dd56, type: 3}
-  growTime: 5
-  buyCost: 1
-  sellCost: 2
-  lvlReq: 5
+  seed: {fileID: 21300000, guid: c3e1f32d8e7948f448f538df61a969e8, type: 3}
+  child: {fileID: 21300000, guid: 46e224fadb2a96641bd38773c089af65, type: 3}
+  grown: {fileID: 21300000, guid: 6194940d4002ef14194ce7282e22fe36, type: 3}
+  fourth: 1
+  last: {fileID: 21300000, guid: 285881a61fb456946bc64baaff5699f7, type: 3}
+  growTime: 10
+  buyCost: 10
+  sellCost: 40
+  _name: Beans
+  _desc: Beans, greens, tomatos. You name it.  we got it.
+  lvlReq: 2
   isReady: 0

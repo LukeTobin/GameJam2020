@@ -24,11 +24,14 @@ public class TileInfoHandler : MonoBehaviour
         {
             Debug.Log("can be planted");
 
-            GameObject newPlant = Instantiate(gm.stored);
-            newPlant.transform.parent = gameObject.transform;
-            newPlant.transform.position = transform.position;
-            gm.money -= GetComponentInChildren<Plant>().buyCost;
-            isOccupied = true;
+            if(gm.money >= gm.stored.GetComponent<Plant>().buyCost)
+            {
+                GameObject newPlant = Instantiate(gm.stored);
+                newPlant.transform.parent = gameObject.transform;
+                newPlant.transform.position = transform.position;
+                gm.money -= GetComponentInChildren<Plant>().buyCost;
+                isOccupied = true;
+            }
         }
         else if(isOccupied)
         {

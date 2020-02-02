@@ -10,6 +10,7 @@ TagManager:
   - Plant
   - Holder
   - InfoBox
+  - Ready
   layers:
   - Default
   - TransparentFX
@@ -46,4 +47,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Plant
+    uniqueID: 1179516991
+    locked: 0
+  - name: Particle
+    uniqueID: 3024532955
     locked: 0

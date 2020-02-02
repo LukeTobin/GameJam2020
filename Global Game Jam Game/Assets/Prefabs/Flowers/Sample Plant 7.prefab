@@ -89,8 +89,12 @@ MonoBehaviour:
   seed: {fileID: 21300000, guid: a9ca6bf3984803b42a9fd42d7cc593da, type: 3}
   child: {fileID: 21300000, guid: 8eb14cceef98bf14c866be14751540cb, type: 3}
   grown: {fileID: 21300000, guid: b14ac3daf93349643a1ba24dfb04f7dd, type: 3}
-  growTime: 5
-  buyCost: 1
-  sellCost: 2
-  lvlReq: 3
+  fourth: 0
+  last: {fileID: 0}
+  growTime: 50
+  buyCost: 50
+  sellCost: 150
+  _name: Pumpkin
+  _desc: My hat. My bat. My pumpkin and my cat.
+  lvlReq: 5
   isReady: 0

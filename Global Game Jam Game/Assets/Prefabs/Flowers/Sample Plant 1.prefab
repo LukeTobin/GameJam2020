@@ -89,8 +89,12 @@ MonoBehaviour:
   seed: {fileID: 21300000, guid: fcb5d06faafebf943808844e6232d134, type: 3}
   child: {fileID: 21300000, guid: 91a0aac978e7dab4b9a8d49f56ad795a, type: 3}
   grown: {fileID: 21300000, guid: 9b2f925a5babc154492d1c6501c11963, type: 3}
-  growTime: 5
-  buyCost: 1
-  sellCost: 2
+  fourth: 0
+  last: {fileID: 0}
+  growTime: 15
+  buyCost: 25
+  sellCost: 35
+  _name: Bunny Ears
+  _desc: this cactus is called bunny ears. It's very cute.
   lvlReq: 1
   isReady: 0

@@ -14,17 +14,24 @@ public class ReadyPlacement : MonoBehaviour
 
     Image storedHover;
 
+    public string _name, _desc;
+    public float _cost;
+
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         sb = GameObject.FindGameObjectWithTag("Sidebar").GetComponent<SideBar>();
+
+        _name = storing.GetComponent<Plant>()._name;
+        _desc = storing.GetComponent<Plant>()._desc;
+        _cost = storing.GetComponent<Plant>().sellCost;
+
     }
  
     public void purchaseMe()
     {
         gm.stored = storing;
-        gm.money -= storing.GetComponent<Plant>().buyCost;
         gm.UpdateStored(storing.GetComponent<Plant>().grown);
         sb.closeAll();
     }

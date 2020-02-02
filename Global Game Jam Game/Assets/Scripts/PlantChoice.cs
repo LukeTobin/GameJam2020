@@ -24,15 +24,15 @@ public class PlantChoice : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var gameManager = gameCtrl.GetComponent<GameManager>();
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        currentLvl = gameManager.playerLvl;
+        currentLvl = gm.playerLvl;
     }
 
     public void FillMenu()
     {
         int xCount = 0;
         int yCount = 0;
+        currentLvl = gm.playerLvl;
 
         for (int i = 0; i < plants.Count; i++)
         {

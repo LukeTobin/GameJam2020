@@ -89,8 +89,12 @@ MonoBehaviour:
   seed: {fileID: 21300000, guid: 5c5f62455eafc8548808d3635b021e28, type: 3}
   child: {fileID: 21300000, guid: bfc861eb6ae3564449be9ec07164f7bb, type: 3}
   grown: {fileID: 21300000, guid: 1d054336f99f7e44ca49d04b0a93fa07, type: 3}
+  fourth: 0
+  last: {fileID: 0}
   growTime: 5
-  buyCost: 1
-  sellCost: 2
-  lvlReq: 2
+  buyCost: 5
+  sellCost: 10
+  _name: Sunflower
+  _desc: Tall boi
+  lvlReq: 1
   isReady: 0

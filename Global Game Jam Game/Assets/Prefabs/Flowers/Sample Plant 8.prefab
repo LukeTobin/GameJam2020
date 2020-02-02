@@ -91,8 +91,10 @@ MonoBehaviour:
   grown: {fileID: 21300000, guid: 9439fae9da3538346ad88df3de8348ba, type: 3}
   fourth: 1
   last: {fileID: 21300000, guid: 90619f5fd67cc5f4a9343386870e0a9c, type: 3}
-  growTime: 5
-  buyCost: 1
-  sellCost: 2
+  growTime: 10
+  buyCost: 33
+  sellCost: 43
+  _name: Echinovereus
+  _desc: Can grow edible fruit. Very prickly.
   lvlReq: 4
   isReady: 0

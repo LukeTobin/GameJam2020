@@ -10,6 +10,10 @@ public class SideBar : MonoBehaviour
     public GameObject plantMenu, toolMenu, infobox;
     public Button exit;
 
+    public Text title;
+    public Text desc;
+    public Text cost;
+
     private void Start()
     {
         focusBG.enabled = false;
